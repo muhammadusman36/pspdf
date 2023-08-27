@@ -1,0 +1,91 @@
+/* my-pspdfkit.css */
+.PSPDFKit-Toolbar {
+  background-color: #f00;
+  float: left;
+}
+.PSPDFKit-Container{
+    background-color: #f00;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+.PSPDFKit-Sidebar {
+  background-color: rgb(250, 251, 251);
+  box-shadow: -5px 0 5px rgba(200, 200, 200, 0.2);
+}
+
+.PSPDFKit-Annotation-Tooltip {
+  flex-direction: column;
+}
+
+.PSPDFKit-Annotation-Tooltip .PSPDFKit-Annotation-Tool-Button {
+  padding: 5px 20px;
+  border: none;
+}
+
+.PSPDFKit-Sidebar-Dragger {
+  display: none;
+} 
+/* .stroke-color-label {
+	color: white;
+	display: flex;
+	width: 200px;
+	justify-content: space-between;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.PSPDFKit-Annotation-Toolbar-Button-Delete {
+    display: none !important;
+} */
+
+/* .PSPDFKit-Annotation-Widget {
+  border: 1px solid red;
+} */
+/* This matches unfilled required fields with validation error. */
+/* .PSPDFKit-Annotation-Widget-Required:invalid {
+    border: 1px solid red !important;
+    background-color: red !important;
+    color: white !important; 
+    color: white !important; 
+    background-color: #000 !important;
+  } */
+/* .PSPDFKit-Annotation-Widget-Required { */
+    /* border: 1px solid red; */
+    /* background-color: red !important; Change to your desired background color for unfilled fields */
+  /* } */
+  
+  /* .PSPDFKit-Annotation-Widget {
+    border: 1px solid red;
+    background-color: #000 !important;
+    color: white !important; 
+}
+.PSPDFKit-Page-Indicator-Input {
+  background-color: blue;
+}
+*/
+ .PSPDFKit-Annotation-Widget-Required:invalid {
+  background-color: red !important;
+} 
+
+.PSPDFKit-Annotation-Widget-Required {
+  background-color: green !important;
+} 
+
+.PSPDFKit-Annotation-Widget {
+    border: 1px solid red;
+    color: white !important; 
+    background: rgb(2,0,36) !important;
+}
+.PSPDFKit-Annotation-Widget-Text{
+   border: 1px solid red;
+    background-color: transparent;
+    
+    color: white !important; 
+    background: rgb(2,0,36) !important;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 100%) !important;
+    background-image: url("https://pbs.twimg.com/profile_images/428316729220276224/EdBZ2Kgp.jpeg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
