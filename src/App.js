@@ -7,7 +7,7 @@ function App() {
     <>
       <body>
         <div className="App">
-          <div className="PDF-viewer">
+          <div className="PDF-viewer" style={{ width: "100%" }}>
             <PdfViewerComponent
               document={document}
             />

@@ -1,31 +1,4 @@
-/* my-pspdfkit.css */
-.PSPDFKit-Toolbar {
-  background-color: #f00;
-  float: left;
-}
-.PSPDFKit-Container{
-    background-color: #f00;
-    float: left;
-    display: flex;
-    justify-content: space-around;
-}
-.PSPDFKit-Sidebar {
-  background-color: rgb(250, 251, 251);
-  box-shadow: -5px 0 5px rgba(200, 200, 200, 0.2);
-}
 
-.PSPDFKit-Annotation-Tooltip {
-  flex-direction: column;
-}
-
-.PSPDFKit-Annotation-Tooltip .PSPDFKit-Annotation-Tool-Button {
-  padding: 5px 20px;
-  border: none;
-}
-
-.PSPDFKit-Sidebar-Dragger {
-  display: none;
-} 
 /* .stroke-color-label {
 	color: white;
 	display: flex;
@@ -89,3 +62,21 @@
     background-repeat: no-repeat;
     background-position: center;
    }
+
+.PSPDFKit-Sidebar {
+  background-color: rgb(250, 251, 251);
+  box-shadow: -5px 0 5px rgba(200, 200, 200, 0.2);
+}
+
+.PSPDFKit-Annotation-Tooltip {
+  flex-direction: column;
+}
+
+.PSPDFKit-Annotation-Tooltip .PSPDFKit-Annotation-Tool-Button {
+  padding: 5px 20px;
+  border: none;
+}
+
+.PSPDFKit-Sidebar-Dragger {
+  display: none;
+}
